@@ -5,6 +5,7 @@ import (
     "fmt"
     "os"
 	"golang.org/x/sys/unix"
+	"semaphore"
 )
 
 func main() {
