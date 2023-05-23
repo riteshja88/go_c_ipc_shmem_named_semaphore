@@ -26,7 +26,7 @@ func main() {
     }
 
     // Write a string to the shared memory segment
-    message := "Hello, World!"
+    message := "Hello, World! from Golang"
     copy(data, []byte(message))
 
     // Detach from the shared memory segment
