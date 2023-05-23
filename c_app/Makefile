@@ -1,5 +1,5 @@
 all:
-	gcc main.c -g
+	gcc main.c -g -lpthread
 
 run: all
 	./a.out
