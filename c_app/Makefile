@@ -5,4 +5,4 @@ run: all
 	./a.out
 
 clean:
-	rm -f ./aout
+	rm -f ./a.out
